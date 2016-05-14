@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="65b32f11-1775-4927-bf4a-818bee2778bc" name="BalloonServer" url="http://52.91.240.90">
+        <fileTransfer host="52.91.240.90" port="22" privateKey="$USER_HOME$/Downloads/appkey.pem" accessType="SFTP" username="ubuntu" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

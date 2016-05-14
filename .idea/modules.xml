@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpaceBalloonChallenge.iml" filepath="$PROJECT_DIR$/.idea/SpaceBalloonChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SpaceBalloonServerSide/.idea/SpaceBalloonServerSide.iml" filepath="$PROJECT_DIR$/../SpaceBalloonServerSide/.idea/SpaceBalloonServerSide.iml" />
+    </modules>
+  </component>
+</project>
