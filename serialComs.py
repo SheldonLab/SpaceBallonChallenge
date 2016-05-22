@@ -45,7 +45,16 @@ class SIM808(SerialInterface):
         g = lambda x: 0 if x == '' else float(x)
         latitude   = g(data[3])
         longitude  = g(data[4])
-        data = {'time':time_stamp, 'lat':latitude, 'long':longitude}
+        altitude   = g(data[5])
+        ground_speed = g(data[6])
+        ground_course = g(data[7])
+        data = {'time': time_stamp,
+                'latitude': latitude,
+                'longitude': longitude,
+                'altitude': altitude,
+                'ground_speed': ground_speed,
+                'ground_course': ground_course}
+
         return json.dumps(data)
 
     def post_gps_data(self, data):
